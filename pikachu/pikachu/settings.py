@@ -80,7 +80,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'task_manager_db',
         'USER': 'root',
-        'PASSWORD': 'Kaam25@Room64'
+        'PASSWORD': 'Kaam25@Room64',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
